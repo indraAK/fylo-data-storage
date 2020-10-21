@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- displays site properly based on user's device -->
+
+   <link rel="stylesheet" href="./css/main.css">
+   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+   <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+
+<body>
+
+   <section class="storage-section">
+      <div class="container">
+         <div class="row">
+            <div class="col">
+               <div class="card">
+                  <img src="./images/logo.svg" class="card__logo" alt="Fylo logo">
+                  <div class="card__body">
+                     <button type="button" class="card__box-btn card__box-btn--document">
+                        <img src="./images/icon-document.svg" alt="icon document">
+                     </button>
+                     <button type="button" class="card__box-btn card__box-btn--folder">
+                        <img src="./images/icon-folder.svg" alt="icon folder">
+                     </button>
+                     <button type="button" class="card__box-btn card__box-btn--upload">
+                        <img src="./images/icon-upload.svg" alt="icon upload">
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="storage">
+                  <p class="storage__info">You’ve used <span class="storage__used">815 GB</span> of your storage</p>
+                  <div class="storage__left">
+                     <div class="numbers">
+                        <span class="number number--one">1</span>
+                        <span class="number number--eight">8</span>
+                        <span class="number number--five">5</span>
+                     </div>
+                     <span class="gb-text">GB LEFT</span>
+                  </div>
+                  <div class="storage__progress-container">
+                     <div class="storage__progress">
+                        <span class="storage__progress-value"></span>
+                     </div>
+                     <p class="storage__value storage__value--left">0 GB</p>
+                     <p class="storage__value storage__value--right">1000 GB</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+</body>
+
+</html>
